@@ -1,0 +1,113 @@
+p,
+h1,
+h3 {
+    color: #fff;
+}
+
+h3 {
+    padding: 3px
+}
+
+p {
+    font-size: 14px;
+    padding: 3px;
+}
+
+body,
+html {
+    height: 100%;
+}
+
+body {
+    background: #000;
+    margin: 0px;
+    padding: 0px
+}
+
+img {
+    padding: 0px;
+    margin: 0px
+}
+
+/* The hero image */
+.hero-background {
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    background-image: url("img/background.png");
+    /* linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), */
+    /* Set a specific height */
+    height: 100%;
+
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.hero-image {
+    position: absolute;
+    width: 600px;
+    ;
+    height: 800px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 0px;
+}
+
+.navbar {
+    position: absolute;
+    width: 90%;
+    height: 56px;
+    margin-top: 60px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.navbar a {
+    float: left;
+    text-align: center;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navbar a svg,
+.navbar a img {
+    height: 56px;
+    width: 56px;
+}
+
+.main-title {
+    position: absolute;
+    top: 180px;
+    left: 76px;
+    color: #fff;
+    width: 600px;
+    height: 100px;
+}
+
+.connect {
+    float: right;
+    width: 200px;
+    height: 70px;
+    background: #FF316B;
+    margin-right: 10px;
+    border-radius: 35px;
+    line-height: 70px;
+    text-align: center;
+    color: #FFF;
+    font-size: 28px;
+}
